@@ -1,0 +1,42 @@
+{
+  "provenance": "Original synthetic English training examples prepared with ChatGPT assistance for this hackathon. No client conversations or personal data.",
+  "examples": {
+    "website": [
+      "Build a responsive website for our coaching business", "Design a landing page with a contact form", "Make a portfolio site for a photographer", "Refresh the home page navigation and mobile layout", "Develop three pages about services and contact", "Create a business website with a WhatsApp enquiry button", "Improve page loading speed and accessibility", "Add a booking enquiry form to the homepage", "Redesign our restaurant menu website", "We need a responsive landing page for a course launch", "Create an HTML CSS page for our small business", "Build a product landing page without checkout", "Make a new mobile friendly services page", "Update the content and pictures on our existing site", "Create a one page site with pricing and contact details", "Fix the navigation links and footer on the website"
+    ],
+    "branding": [
+      "Create a logo and a simple brand guide", "Design a wordmark for a boutique", "Choose a brand colour palette and typography", "Make a visual identity for our new company", "Design business cards using our logo", "Refresh our brand mark and icon", "Deliver an editable vector logo", "Create a typography system and logo variations", "Develop a brand identity for a bakery", "Draw an original monogram for our label", "Design a packaging label and brand style", "We need a logo for our coaching institute", "Create a brand kit with fonts and colours", "Make a minimal emblem for our startup", "Redesign the corporate identity", "Design a store sign using the brand name"
+    ],
+    "social": [
+      "Create eight Instagram posts with captions", "Design a social media carousel", "Write captions for our boutique posts", "Prepare a monthly content calendar", "Make twelve social graphics for LinkedIn", "Create an Instagram campaign for our salon", "Design festival posts for our business", "Prepare social media templates for our team", "Write a week of LinkedIn content", "Create product promotion posts and stories", "Design three carousel posts for the launch", "Plan an editorial calendar for Instagram", "Make social graphics from supplied product photos", "Create reusable story templates", "Write captions and hashtags for six posts", "Prepare a set of LinkedIn announcement graphics"
+    ],
+    "automation": [
+      "Connect incoming enquiries to a CRM", "Build a WhatsApp automation for enquiry replies", "Create an AI chatbot for frequently asked questions", "Set up an n8n workflow for customer follow up", "Automatically send contact form leads to a spreadsheet", "Integrate our booking tool with email reminders", "Build a support bot for the website", "Automate lead assignment and sales notifications", "Connect our forms with a customer database", "Make a workflow that sends an email after signup", "Create a chatbot that answers product questions", "Automate appointment confirmation messages", "Set up CRM workflows for our sales team", "Integrate the lead form with a webhook", "Send a reminder whenever a new enquiry is unanswered", "Create an automation between our business apps"
+    ],
+    "commerce": [
+      "Add a PayPal checkout to our store", "Build an online shop with a shopping cart", "Set up recurring subscription payments", "Create product pages with payment checkout", "Integrate an ecommerce catalogue and checkout", "We need an online store to sell clothes", "Accept payments for digital products", "Create a checkout page with order confirmation", "Add a payment gateway to our website", "Set up monthly billing for our members", "Build a product catalogue with a buy button", "Add cart totals and shipping options", "We want to sell products online", "Implement a subscription plan checkout", "Build an ecommerce store with twenty products", "Create a payment flow for customer orders"
+    ]
+  },
+  "held_out": [
+    ["website", "A mobile friendly company site with an enquiry form"],
+    ["website", "Change the homepage layout and improve navigation"],
+    ["website", "Create a page showing our coaching services"],
+    ["website", "A responsive portfolio with contact details"],
+    ["branding", "We want a fresh logo and font pairing"],
+    ["branding", "Design a visual identity for a local shop"],
+    ["branding", "Prepare vector versions of a brand mark"],
+    ["branding", "Create a colour palette and business card"],
+    ["social", "Eight social posts for Instagram with short captions"],
+    ["social", "Make carousel graphics for a product launch"],
+    ["social", "Prepare a LinkedIn calendar of content"],
+    ["social", "Create promotional stories from our supplied photos"],
+    ["automation", "Send each website enquiry into our CRM automatically"],
+    ["automation", "Make a chatbot for common support questions"],
+    ["automation", "Connect a form webhook to an n8n workflow"],
+    ["automation", "Automate emails for appointment reminders"],
+    ["commerce", "Add PayPal payments and a cart for products"],
+    ["commerce", "Create recurring billing for a membership"],
+    ["commerce", "Build a shop that accepts customer payments"],
+    ["commerce", "Set up product checkout and order confirmation"]
+  ]
+}

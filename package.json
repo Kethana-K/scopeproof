@@ -1,0 +1,14 @@
+{
+  "name": "scopeproof",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reviewable AI scopes and consent-bound PayPal sandbox checkout for freelance work",
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server.mjs",
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "MIT"
+}
