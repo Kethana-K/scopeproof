@@ -1,0 +1,151 @@
+{
+  "held_out_examples": 20,
+  "accuracy": 1.0,
+  "labels": [
+    "automation",
+    "branding",
+    "commerce",
+    "social",
+    "website"
+  ],
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "limitations": "Small synthetic, same-domain English evaluation. Not a real-customer or independent benchmark. No general language understanding or calibrated certainty claim.",
+  "predictions": [
+    {
+      "text": "A mobile friendly company site with an enquiry form",
+      "expected": "website",
+      "predicted": "website"
+    },
+    {
+      "text": "Change the homepage layout and improve navigation",
+      "expected": "website",
+      "predicted": "website"
+    },
+    {
+      "text": "Create a page showing our coaching services",
+      "expected": "website",
+      "predicted": "website"
+    },
+    {
+      "text": "A responsive portfolio with contact details",
+      "expected": "website",
+      "predicted": "website"
+    },
+    {
+      "text": "We want a fresh logo and font pairing",
+      "expected": "branding",
+      "predicted": "branding"
+    },
+    {
+      "text": "Design a visual identity for a local shop",
+      "expected": "branding",
+      "predicted": "branding"
+    },
+    {
+      "text": "Prepare vector versions of a brand mark",
+      "expected": "branding",
+      "predicted": "branding"
+    },
+    {
+      "text": "Create a colour palette and business card",
+      "expected": "branding",
+      "predicted": "branding"
+    },
+    {
+      "text": "Eight social posts for Instagram with short captions",
+      "expected": "social",
+      "predicted": "social"
+    },
+    {
+      "text": "Make carousel graphics for a product launch",
+      "expected": "social",
+      "predicted": "social"
+    },
+    {
+      "text": "Prepare a LinkedIn calendar of content",
+      "expected": "social",
+      "predicted": "social"
+    },
+    {
+      "text": "Create promotional stories from our supplied photos",
+      "expected": "social",
+      "predicted": "social"
+    },
+    {
+      "text": "Send each website enquiry into our CRM automatically",
+      "expected": "automation",
+      "predicted": "automation"
+    },
+    {
+      "text": "Make a chatbot for common support questions",
+      "expected": "automation",
+      "predicted": "automation"
+    },
+    {
+      "text": "Connect a form webhook to an n8n workflow",
+      "expected": "automation",
+      "predicted": "automation"
+    },
+    {
+      "text": "Automate emails for appointment reminders",
+      "expected": "automation",
+      "predicted": "automation"
+    },
+    {
+      "text": "Add PayPal payments and a cart for products",
+      "expected": "commerce",
+      "predicted": "commerce"
+    },
+    {
+      "text": "Create recurring billing for a membership",
+      "expected": "commerce",
+      "predicted": "commerce"
+    },
+    {
+      "text": "Build a shop that accepts customer payments",
+      "expected": "commerce",
+      "predicted": "commerce"
+    },
+    {
+      "text": "Set up product checkout and order confirmation",
+      "expected": "commerce",
+      "predicted": "commerce"
+    }
+  ]
+}
